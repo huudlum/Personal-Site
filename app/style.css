@@ -1,0 +1,94 @@
+:root{
+  --bgcolor: #0D353F;
+  --link: #017979;
+  --brown: #8D4C27;
+  --hover: #F57D6C;
+  --text: #F6F5C7;
+}
+
+body {
+  background-color: var(--bgcolor);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+p h2{
+  color: var(--text);
+}
+
+a{
+  text-decoration: none;
+  color: var(--link);
+}
+
+a:hover{
+  color: var(--hover);
+}
+
+.hidden {
+  display: none;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  top: 3%;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  float: right;
+  border: 3.5px solid var(--hover);
+}
+
+.section{
+  border-bottom: 3.5px solid var(--hover);
+  width: 100%;
+  position: relative;
+  padding-bottom: 2rem;
+  color: var(--text);
+}
+
+.text-main {
+  font-size: 2rem;
+  text-wrap: wrap;
+  line-height: 3rem;
+  margin: 1.5rem;
+  text-align: left;
+  color: var(--text);
+}
+
+.subtext{
+  font-size: 1rem;
+  text-wrap: wrap;
+  line-height: 1.5rem;
+  margin: 0.5rem;
+  text-align: left;
+  color: var(--text);
+}
+
+.text-main a:hover{
+  color: var(--hover);
+}
+
+#icons {
+  font-size: 2.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .text-main {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 0.1rem;
+  }
+  
+  .subtext{
+  font-size: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+  position: relative;
+}
+  
+}
