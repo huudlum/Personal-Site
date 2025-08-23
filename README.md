@@ -9,7 +9,7 @@ Structured a responsive, single-page application using semantic HTML for section
 
 Created user interface components, including a profile picture, social media icons, and a section for a project gallery.
 
-Implemented accessibility-friendly elements like descriptive placeholders and integrated an external Font Awesome library for social media icons.
+Integrated an external library for the first time, using Font Awesome to handle the social media icons.
 
 ## ✅ CSS3
 Designed a clean, modern interface with a custom color scheme using CSS variables.
