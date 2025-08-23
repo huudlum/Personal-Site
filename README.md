@@ -1,45 +1,23 @@
 # Dan Hobbs — Personal Website
 
-This is the source for my personal site, hosted on [Neocities](https://danhobbs.neocities.org/).
+This is a personal portfolio website built with pure front-end technologies. It serves as a clean, accessible, and responsive example of a client-side site showcasing a profile and a collection of projects.
 
-The site is a central hub for my projects, experiments, and personal interests. It acts as a landing page that links to my web apps, articles, and other online work.
+Here's a breakdown of the skills demonstrated in this project:
 
----
+## ✅ HTML5
+Structured a responsive, single-page application using semantic HTML for sections and links.
 
-## Purpose
+Created user interface components, including a profile picture, social media icons, and a section for a project gallery.
 
-- Showcase my personal web projects and experiments.
-- Share links to things I’ve built, written, or contributed to.
-- Maintain a simple, lightweight site that works on any device.
+Integrated an external library for the first time, using Font Awesome to handle the social media icons.
 
----
+## ✅ CSS3
+Designed a clean, modern interface with a custom color scheme using CSS variables.
 
-## Features
+Utilized the Box Model & floating for layout and image positioning.
 
-- **Static HTML/CSS/JS** — no frameworks or build tools.
-- **Responsive layout** for desktop and mobile viewing.
-- **Links to projects** such as QR code generators, weather apps, to-do lists, and more.
-- Hosted free on **Neocities**.
+Implemented responsive design using @media queries for mobile and desktop compatibility.
 
----
+Styled elements conditionally and used transitions for interactive UI components.
 
-## Structure
-
-The site is kept deliberately minimal:
-- `index.html` — main landing page with links and descriptions.
-- `/projects/` — subpages for individual web apps.
-- `/assets/` — shared styles, scripts, and images.
-
----
-
-## Hosting
-
-The site is hosted on **Neocities**, a free static site hosting service:
-- [Live Site](https://danhobbs.neocities.org/)
-
----
-
-## License
-
-All site content is © Dan Hobbs unless otherwise stated.
-You may view and link to the site freely, but please do not copy or redistribute the content without permission.
+<img width="1900" height="919" alt="Screenshot 2025-08-23 at 21 33 47" src="https://github.com/user-attachments/assets/51f3fcd8-daf3-45ce-9f6d-9c3e3fc18955" />
