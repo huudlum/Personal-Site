@@ -1,3 +1,4 @@
+/*
 :root{
     --bgcolor: #0D353F;
     --link: #017979;
@@ -5,57 +6,73 @@
     --hover: #F57D6C;
     --text: #F6F5C7;
 }
+*/
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: var(--bgcolor);
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+.header {
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
 grid {
     display: grid;
-    grid-template-columns: 1fr 100%;
+    grid-template-columns: 275px 1fr;
+    gap: 2rem;
 }
 
-#nav-bar{
-    margin-left: 1rem;
-    margin-right: 3rem;
+.nav-bar{
+    font-size: 18px;
+    position: sticky;
+    align-self: start;
+    font-weight: 300;
+    color: #333;
+    top: 2rem;
 }
 
-#main {
-
-}
-
-p h2{
-    color: var(--text);
-}
-
-a{
+.nav-bar a{
+    transition: all 50ms ease-in-out;
     text-decoration: none;
-    color: var(--link);
+    color: black;
 }
 
-a:hover{
-    color: var(--hover);
+.nav-bar a:hover{
+    cursor: pointer;
+    color: deeppink;
 }
 
-.text-main {
-    font-size: 2rem;
-    text-wrap: normal;
-    line-height: 3rem;
-    margin: 1.5rem;
+ul,ol {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.25rem;
+}
+
+.main {
     text-align: left;
-    color: var(--text);
+    font-size: 12px;
+    width: 75%;
+    margin: auto;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 5px 20px 20px;
 }
 
-.subtext{
-    font-size: 1rem;
-    text-wrap: normal;
-    line-height: 1.5rem;
-    margin: 0.5rem;
+.main h2
+{
     text-align: left;
-    color: var(--text);
+    font-size: 20px;
 }
 
-.text-main a:hover{
-    color: var(--hover);
-}
