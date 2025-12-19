@@ -31,8 +31,8 @@ body {
 
 grid {
     display: grid;
-    grid-template-columns: 275px 1fr;
-    gap: 2rem;
+    grid-template-columns: 20% 80%;
+    gap: 0.25rem;
 }
 
 .nav-bar{
