@@ -26,7 +26,7 @@ body {
     font-size: 100px;
     font-weight: 750;
     color: red;
-    font-stretch: expanded;
+    font-stretch: extra-expanded;
 }
 
 grid {
@@ -55,7 +55,7 @@ grid {
     color: red;
 }
 
-ul,ol {
+.nav-bar ul,ol {
     list-style: none;
 }
 
@@ -94,5 +94,33 @@ li {
 
 #link-icons a:hover {
     color: red;
+}
+
+.dates {
+    margin: 0;
+    padding-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.subheading{
+    margin: 0;
+}
+
+.subsubheading {
+    margin: 0;
+}
+
+.heading {
+    margin-bottom: 0.5rem;
+    font-stretch: expanded;
+}
+
+.main-text {
+    margin: 0.5rem;
+    font-weight: lighter;
+}
+
+.text {
+    margin: 0.5rem;
 }
 
