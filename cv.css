@@ -81,3 +81,18 @@ li {
     font-size: 20px;
 }
 
+#link-icons {
+    font-size: 2.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+#link-icons a {
+    color: black;
+}
+
+#link-icons a:hover {
+    color: red;
+}
+
