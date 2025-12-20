@@ -28,8 +28,8 @@
       <a href="#education"><li>Education</li></a>
       <a href="#qualifications"> <li>Qualifications</li></a>
       <a href="#links"><li>Links</li></a>
-      <a href="#references"><l1>References</l1></a>
-      <li>Dark Mode?</li>
+      <a href="#references"><li>References</li></a>
+      <li id="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode?</li>
     </ul>
   </section>
 
@@ -64,25 +64,28 @@
       <p class="main-text">Integrating mathematical idea into everyday life, touching on statistical, graphical, algebraic, trigonometric and numerical concepts and techniques and an introduction into mathematical modelling.</p>
 
       <li>Algorithms, Data Structures & Computability - Grade 2 Pass</li>
-      <p class="main-text"> This is styled text as an example </p>
+      <p class="main-text">Structures to organise data including lists, stacks, dictionaries, set, graphs and trees then moving in to algorithmic search, recursion and dynamic programming.</p>
+
       <li>Object Orientated Programming in Java - Distinction</li>
-      <p class="main-text"> This is styled text as an example </p>
+      <p class="main-text">Using BlueJ to explore objects, variables, methods and data types in Java before moving on polymorphism, abstraction, interfaces and file input.</p>
+
       <li>Web Technologies - Distinction</li>
-      <p class="main-text"> This is styled text as an example </p>
+      <p class="main-text">Starting with the basics building blocks of the web including protocols, standards, design, accessibility and usability. Then expanding into libraries and frameworks, interactivity and how to manage an application through it's life cycle.</p>
+
       <li>Managing IT: The how, what & why - Grade 2 Pass</li>
-      <p class="main-text"> This is styled text as an example </p>
+      <p class="main-text"> Service management and the lifecycle using ITIL alongside the basics of stakeholder requirements, database management and an introduction into project management tools and techniques.</p>
 
       <li>Interaction design and the user experience - Distinction</li>
-      <p class="main-text"> This is styled text as an example </p>
+      <p class="main-text">A full lifecycle of the design of the product starting at the identifying users, methods to gather requirements, moving those requirements into a design and then evaluation the interactive product to ensure its meets it's requirements and it's users.  </p>
+
       <li>Web, mobile and cloud technologies - Distinction</li>
-      <p class="main-text"> This is styled text as an example </p>
+      <p class="main-text">Starting with the foundations of the web, distributed architectures and security before moving into the technologies to enable mobile applications and cloud models and infrastructure.</p>
     </ul>
+
     <p class="text">Currently Studying (2025/2026):</p>
     <ul>
       <li>Software engineering</li>
-      <p class="main-text"> This is styled text as an example </p>
       <li>The Computing and IT Project</li>
-      <p class="main-text"> This is styled text as an example </p>
     </ul>
 
 <!--    Qualifications and Skills Section-->
@@ -101,6 +104,16 @@
 
   </section>
 </grid>
+
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle('darkmode');
+    document.querySelector('.main').classList.toggle('darkmode');
+    document.querySelector('.nav-bar').classList.toggle('darkmode');
+    document.getElementById('link-icons').classList.toggle('darkmode');
+    document.getElementById('dark-mode-toggle').classList.toggle('darkmode');
+  }
+</script>
 
 </body>
 </html>
