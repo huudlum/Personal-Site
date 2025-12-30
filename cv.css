@@ -125,6 +125,16 @@ li {
     margin: 0.5rem;
 }
 
+.text a,
+.text a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.text a:hover {
+    color: red;
+}
+
 /* Code to implement dark mode toggle */
 #dark-mode-toggle {
     margin-top: 1rem;
@@ -165,5 +175,15 @@ body.darkmode {
 }
 
 #link-icons.darkmode a:hover{
+    color: red;
+}
+
+.text.darkmode a,
+.text.darkmode a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.text.darkmode a:hover{
     color: red;
 }

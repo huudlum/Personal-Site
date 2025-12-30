@@ -33,6 +33,7 @@
       <a href="#greggs"><ul>Greggs the Bakers</ul></a>
       <a href="#education"><li>Education</li></a>
       <a href="#qualifications"> <li>Qualifications</li></a>
+      <a href="#skills"><li>Skills</li></a>
       <a href="#references"><li>References</li></a>
       <li id="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode?</li>
 
@@ -54,7 +55,12 @@
     <h2 class="heading" id="education">Education</h2>
     <h3 class="subheading">Open University</h3>
     <h4 class="subsubheading">Bachelors of Science (honours) in Computing and IT - Software Development Focus</h4>
-    <p class="dates">2020 - Present</p>
+    <p class="dates">2020 - Present. Expected to Graduate in 2026.</p>
+    <p class="text">Currently Studying (2025/2026):</p>
+    <ul>
+      <li>Software engineering</li>
+      <li>The Computing and IT Project</li>
+    </ul>
     <p class="text">Modules Studied:</p>
     <ul>
       <li>Introduction to Information Technology (Part 1) - Distinction</li>
@@ -88,18 +94,42 @@
       <p class="main-text">Starting with the foundations of the web, distributed architectures and security before moving into the technologies to enable mobile applications and cloud models and infrastructure.</p>
     </ul>
 
-    <p class="text">Currently Studying (2025/2026):</p>
+<!--Qualifications-->
+    <h2 class="heading" id="qualifications">Qualifications</h2>
+    <p>Cisco Network Essentials - November 2021</p>
+    <p class="main-text">Foundational certification covering network fundamentals, IP addressing, network security basics, and building simple LANs.</p>
+    <p>Dixons Carphone "Aspire" Leadership & Management Training Program - October 2018</p>
+    <p class="main-text">Leadership and management development programme focusing on team leadership, sales performance management, and people development based around a CPD cycle.</p>
+
+    <h2 class="heading" id="skills">Skills</h2>
+    <h3 class="subheading">Technical Skills</h3>
     <ul>
-      <li>Software engineering</li>
-      <li>The Computing and IT Project</li>
+      <li><b>Programming:</b> Python, Java, JavaScript, HTML/CSS, SQL</li>
+      <li><b>Web Development:</b> Front-end fundamentals, React, Svelte, responsive design, accessibility standards</li>
+      <li><b>Development Practices:</b> Object-oriented programming, data structures & algorithms, Agile/Scrum, version control (Git/GitHub)</li>
+      <li><b>Infrastructure:</b> Network protocols and design (Cisco certified), operating system security, cloud computing concepts (AWS)</li>
+      <li><b>Tools:</b> WebStorm, BlueJ, Cisco Packet Tracer</li>
+      <li><b>Methodologies:</b> ITIL service management, UX/UI design principles, project management</li>
     </ul>
 
-<!--    Qualifications and Skills Section-->
-    <h2 class="heading" id="qualifications">Qualifications & Skills</h2>
-    <p>Cisco Network Essentials - November 2021</p>
-    <p>Dixons Carphone Aspire - October 2018</p>
+    <h3 class="subheading">Management Skills</h3>
+    <ul>
+      <li>Multi-site operations management</li>
+      <li>Team development and succession planning</li>
+      <li>HR policy development and compliance management</li>
+      <li>Sales strategy and performance analysis</li>
+      <li>Budget and payroll management</li>
+      <li>Regulatory compliance (FCA, health & safety)</li>
+      <li>Stakeholder and customer relationship management</li>
+    </ul>
 
     <h2 class="heading" id="references">References & Recommendations</h2>
+    <p class="main-text"><i>"Dan completely reimaged the store when joining. Figures sky rocketed... He helped my personal growth within the company as a whole... He brought the team together in the limited time we had lifting morale which in itself improved our sales and service."</i>
+    — (Direct Report)</p>
+    <p class="main-text"><i>"Dan Hobbs is forward thinking creative man with a wide array of skills and experiences. His work is always well thought out, concise & detailed."</i>
+    — (Colleague)</p>
+    <p class="text">Full recommendations available on <a href="https://www.linkedin.com/in/danjohnhobbs/">LinkedIn</a></p>
+    <p class="text">Professional references available upon request</p>
 
   </section>
 </grid>
@@ -111,6 +141,8 @@
     document.querySelector('.nav-bar').classList.toggle('darkmode');
     document.getElementById('link-icons').classList.toggle('darkmode');
     document.getElementById('dark-mode-toggle').classList.toggle('darkmode');
+    document.querySelectorAll('.text').forEach(element => {element.classList.toggle('darkmode');});
+
   }
 </script>
 
