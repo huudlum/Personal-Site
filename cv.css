@@ -1,13 +1,3 @@
-/*
-:root{
-    --bgcolor: #0D353F;
-    --link: #017979;
-    --brown: #8D4C27;
-    --hover: #F57D6C;
-    --text: #F6F5C7;
-}
-*/
-
 html {
     scroll-behavior: smooth;
 }
@@ -99,7 +89,7 @@ li {
 
 .dates {
     margin: 0;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.1rem;
     font-style: italic;
 }
 
