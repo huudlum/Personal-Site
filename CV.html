@@ -20,8 +20,10 @@
         <li><a href="https://www.linkedin.com/in/danjohnhobbs/"><i class="fa-brands fa-linkedin"></i></a>
           <a href="https://github.com/huudlum"><i class="fa-brands fa-square-github"></i></a>
           <a href="mailto:tickers-elegant.04@icloud.com"><i class="fa-solid fa-envelope"></i></a>
-          <a href="index.html"><i class="fa-solid fa-window-maximize"></i></a></li>
+          <a href="index.html"><i class="fa-solid fa-home"></i></a>
+          <a href ="#"><i class="fa-solid fa-download" onclick="downloadCV()"></i></a></li>
       </div>
+
       <span id="menu">
       <a href="#title" class="heading" style="font-weight: bold">Explore</a>
       <a href="#personal-profile"><li>Personal Profile</li></a>
@@ -35,8 +37,9 @@
       <a href="#qualifications"> <li>Qualifications</li></a>
       <a href="#skills"><li>Skills</li></a>
       <a href="#references"><li>References</li></a>
-      <li id="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode?</li>
       </span>
+      <i class="fa-solid fa-toggle-off" id="dark-switch" onclick="toggleDarkMode()"></i>
+      <i class="fa-solid fa-toggle-on" id="light-switch" onclick="toggleDarkMode()"></i>
     </ul>
   </section>
 
@@ -191,12 +194,18 @@
 <script>
   function toggleDarkMode() {
     document.body.classList.toggle('darkmode');
+    document.getElementById('light-switch').classList.toggle('darkmode');
+    document.getElementById('dark-switch').classList.toggle('darkmode');
     document.querySelector('.main').classList.toggle('darkmode');
     document.querySelector('.nav-bar').classList.toggle('darkmode');
     document.getElementById('link-icons').classList.toggle('darkmode');
     document.getElementById('dark-mode-toggle').classList.toggle('darkmode');
     document.querySelectorAll('.text').forEach(element => {element.classList.toggle('darkmode');});
 
+  }
+
+  function downloadCV() {
+    window.print();
   }
 </script>
 

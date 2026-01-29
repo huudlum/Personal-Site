@@ -50,6 +50,10 @@ grid {
     list-style: none;
 }
 
+#light-switch {
+    display: none;
+}
+
 li {
     margin-bottom: 0.25rem;
 }
@@ -72,7 +76,7 @@ li {
 }
 
 #link-icons {
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     position: relative;
@@ -178,7 +182,16 @@ body.darkmode {
     color: red;
 }
 
-/*Media Query for printing the CV*/
+#light-switch.darkmode {
+    display: block;
+    color: white;
+}
+
+#dark-switch.darkmode {
+    display: none;
+}
+
+/*Media Query for printing/downloading the CV*/
 @media print {
     .nav-bar,
     #dark-mode-toggle,
