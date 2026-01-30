@@ -80,12 +80,10 @@ a:hover{
 #things {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  margin: 1rem;
-  gap: 0.5rem;
 }
 
 .grid {
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
