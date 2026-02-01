@@ -1,9 +1,9 @@
 :root{
-  --bgcolor: #0D353F;
-  --link: #017979;
-  --brown: #8D4C27;
-  --hover: #F57D6C;
-  --text: #F6F5C7;
+  --bgcolor: #93B5c6;
+  --link: #FFFCFF;
+  --extra: #494949;
+  --hover: #D38B5D;
+  --text: #000000;
 }
 
 body {
@@ -36,11 +36,11 @@ a:hover{
   margin-top: 2rem;
   margin-right: 4rem;
   float: right;
-  border: 3.5px solid var(--hover);
+  border: 3.5px solid var(--extra);
 }
 
 .section{
-  border-bottom: 3.5px solid var(--hover);
+  border-bottom: 3.5px solid var(--extra);
   width: 100%;
   position: relative;
   padding-bottom: 2rem;
@@ -91,7 +91,7 @@ a:hover{
 }
 
 .grid img {
-  border: solid 5px var(--hover);
+  border: solid 5px var(--extra);
   max-width: 80%;
   height: 350px;
   object-fit: contain;
