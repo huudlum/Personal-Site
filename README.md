@@ -19,5 +19,3 @@ Utilized the Box Model & floating for layout and image positioning.
 Implemented responsive design using @media queries for mobile and desktop compatibility.
 
 Styled elements conditionally and used transitions for interactive UI components.
-
-<img width="1900" height="919" alt="Screenshot 2025-08-23 at 21 33 47" src="https://github.com/user-attachments/assets/51f3fcd8-daf3-45ce-9f6d-9c3e3fc18955" />
