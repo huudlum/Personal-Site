@@ -15,9 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # The checkout step copies your repo into the action runner. Important!
       - uses: actions/checkout@v4
-      # Here we deploy the folder named `public`
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:
