@@ -273,6 +273,10 @@ body.darkmode {
         justify-content: center;
     }
 
+    #dark-toggle {
+        display: none;
+    }
+
     #link-icons li {
         display: flex;
         justify-content: center;
