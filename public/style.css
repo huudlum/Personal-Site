@@ -1,9 +1,9 @@
 :root{
-  --bgcolor: #fffff;
-  --link: red;
-  --extra: blue;
-  --hover: blue;
-  --text: #000000;
+  --bgcolor: #F2F3F5;
+  --text: #242628;
+  --link: #A0732A;
+  --hover: #F5EDD9;
+  --surface: #E2E4E8;
 }
 
 body {
